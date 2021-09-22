@@ -53,8 +53,9 @@ netsh http show sslcert
 ```
 
 <br/> 
--Look for the port 44300 and copy the cert hash and appid <br/> 
--Replace the following with the values:
+
+- Look for the port 44300 and copy the cert hash and appid <br/> 
+- Replace the following with the values:
 
 ```
 IP:port                      : 0.0.0.0:44300
