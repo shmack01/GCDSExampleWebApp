@@ -29,10 +29,10 @@ TODO: ValidateIssuer = False
 
 Under configuration\appsettings in the web.config add the following:
 ```
-	<add key="ClientId" value="spectre-localhost-5001" />
+	<add key="ClientId" value="<client-id>" />
 	<add key="redirectUri" value="https://localhost:5001/authentication/login-callback" />
 	<add key="Tenant" value="oidc" />
-	<add key="Authority" value="https://federation.dev.cce.af.mil/{0}/spectre-localhost-5001" />
+	<add key="Authority" value="https://<domain>/{0}/<client id>" />
   ```
 
 > **NOTE** We will add these to key vault later
